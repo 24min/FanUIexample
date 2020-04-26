@@ -1,6 +1,14 @@
+<!--
+ * @Author: 24min
+ * @Date: 2020-04-26 10:03:14
+ * @LastEditors: 24min
+ * @LastEditTime: 2020-04-26 10:18:30
+ * @Description: file content
+ -->
 <template>
   <div id="app">
     <div id="nav">
+      <fan-button></fan-button>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
